@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import datetime
 import random
-import plotly.graph_objects as go
+import plotly.graph_obj
 import google.generativeai as genai
 
 genai.configure(api_key=st.secrets["gemini"]["api_key"])
@@ -405,3 +405,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
